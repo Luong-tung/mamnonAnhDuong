@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.main{
+    margin-left:106px;
+    width: 1140px;
+    height: 48px;
+}
+
+.main .navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+.main .navbar ul li{
+    list-style: none;
+    text-align: center;
+    background: chocolate;
+}
+
+.main .navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
