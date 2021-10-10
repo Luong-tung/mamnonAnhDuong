@@ -6,4 +6,4 @@ setInterval( () =>{
 
         counter =1;
     }
-},3000)
+},5000)

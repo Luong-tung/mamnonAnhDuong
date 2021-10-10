@@ -8,27 +8,14 @@ body{
     background-image: url(https://img4.thuthuatphanmem.vn/uploads/2020/12/25/anh-background-cho-thieu-nhi-dep-va-de-thuong_060925501.jpg);
     background-size:cover ;
     background-repeat: no-repeat;
-    position: relative;
 }
-
-}
-.header-img  img{
-    width: 1140px;
-    height: 150px;
-}
-
 
 
     
 
 .header .header-icons{
     display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 0;
-    right: 0;
-    position: fixed;
-
+    margin-left: 900px;
     
 
 }
@@ -141,7 +128,6 @@ body{
     margin-left: 6px;
     width: 1140px;
 
-
 }
 .main .navbar{
     height: 48px;
@@ -152,7 +138,6 @@ body{
 
 .main .navbar ul{
     display: flex;
-    border-radius: 5px;
     justify-content: space-between;
         
 }
@@ -297,7 +282,7 @@ body{
 }
 .slide{
     width: 20%;
-    transition: 1s;
+    transition: 2s;
 
 }
 .slide img{
@@ -307,25 +292,23 @@ body{
 .navigation-manual{
     position: absolute;
     width: 1140px;
-    margin-top: 370px;
     
     display: flex;
     justify-content: center;
 
 }
 .manual-btn{
-    border:2px solid #656666;
+    border:2px solid #40d3dc;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 0.5s;
-    
+    transition: 1s;
 }
 .manual-btn:not(:last-child){
     margin-right: 40px;
 }
 .manual-btn:hover{
-    background: white;
+    background: #40d3dc;
 }
 #radio1:checked ~ .first{
     margin-left: 0;
@@ -339,40 +322,3 @@ body{
 #radio4:checked ~ .first{
     margin-left: -60%;
 }
-
-.navigation-auto{
-    position:absolute;
-    display: flex;
-    width: 1140px;
-    margin-top: 370px;
-    justify-content: center;
-    
-}
-.navigation-auto div{
-    border: 2px solid #656666;
-    padding: 5px;
-    border-radius:10px ;
-    transition: 0.5s;
-
-}
-.navigation-auto div:not(:last-child){
-    margin-right: 40px;
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn1{
-    background: white;
-    
-}
-#radio2:checked ~ .navigation-auto .auto-btn2{
-    background: white;
-    
-}
-#radio3:checked ~ .navigation-auto .auto-btn3{
-    background: white;
-    
-}
-#radio4:checked ~ .navigation-auto .auto-btn4{
-    background:white;
-    
-}
-

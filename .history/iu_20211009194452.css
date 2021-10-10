@@ -8,27 +8,25 @@ body{
     background-image: url(https://img4.thuthuatphanmem.vn/uploads/2020/12/25/anh-background-cho-thieu-nhi-dep-va-de-thuong_060925501.jpg);
     background-size:cover ;
     background-repeat: no-repeat;
+}
+.header-img img:first-child{
     position: relative;
 }
-
+.header-img img:last-child{
+    position: absolute;
+    top: 16px;
+    left:683px;
+    width: 140px;
+    height: 46px;
+    
+    
 }
-.header-img  img{
-    width: 1140px;
-    height: 150px;
-}
-
-
 
     
 
 .header .header-icons{
     display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 0;
-    right: 0;
-    position: fixed;
-
+    margin-left: 900px;
     
 
 }
@@ -141,7 +139,6 @@ body{
     margin-left: 6px;
     width: 1140px;
 
-
 }
 .main .navbar{
     height: 48px;
@@ -152,7 +149,6 @@ body{
 
 .main .navbar ul{
     display: flex;
-    border-radius: 5px;
     justify-content: space-between;
         
 }
@@ -230,7 +226,6 @@ body{
 .navbar li:hover .navbar-con {
     z-index:1;
     opacity:1;
-    
 }
 .navbar-con {
     width:200px;
@@ -241,9 +236,8 @@ body{
     left:0px;
     z-index:-1;
     opacity:0;
-    transition: opacity linear 0.15s;   
-     box-shadow:0px 2px 3px rgba(0,0,0,0.2);  
-
+    transition: opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);    
 }
 .navbar-con ul{
     display: flex;
@@ -273,106 +267,3 @@ body{
     background: #ffd60a; 
 
 }
-
-.bodys{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top:20px ;
-}
-.slider{
-    width:1140px ;
-    height: 390px;
-    border-radius:10px ;
-    overflow: hidden;
-}
-.slides{
-    width: 500%;
-    height: 390px;
-    display: flex;
-}
-.slides input{
-    display: none;
-
-}
-.slide{
-    width: 20%;
-    transition: 1s;
-
-}
-.slide img{
-    width: 1140px;
-    height: 390px;
-}
-.navigation-manual{
-    position: absolute;
-    width: 1140px;
-    margin-top: 370px;
-    
-    display: flex;
-    justify-content: center;
-
-}
-.manual-btn{
-    border:2px solid #656666;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 0.5s;
-    
-}
-.manual-btn:not(:last-child){
-    margin-right: 40px;
-}
-.manual-btn:hover{
-    background: white;
-}
-#radio1:checked ~ .first{
-    margin-left: 0;
-}
-#radio2:checked ~ .first{
-    margin-left: -20%;
-}
-#radio3:checked ~ .first{
-    margin-left: -40%;
-}
-#radio4:checked ~ .first{
-    margin-left: -60%;
-}
-
-.navigation-auto{
-    position:absolute;
-    display: flex;
-    width: 1140px;
-    margin-top: 370px;
-    justify-content: center;
-    
-}
-.navigation-auto div{
-    border: 2px solid #656666;
-    padding: 5px;
-    border-radius:10px ;
-    transition: 0.5s;
-
-}
-.navigation-auto div:not(:last-child){
-    margin-right: 40px;
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn1{
-    background: white;
-    
-}
-#radio2:checked ~ .navigation-auto .auto-btn2{
-    background: white;
-    
-}
-#radio3:checked ~ .navigation-auto .auto-btn3{
-    background: white;
-    
-}
-#radio4:checked ~ .navigation-auto .auto-btn4{
-    background:white;
-    
-}
-
