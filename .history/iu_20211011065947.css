@@ -12,14 +12,12 @@ body{
 .header-img  img{
     width: 1140px;
     height: 150px;
-    margin-left: 6px;
 }
 .phonenumber{
     position: absolute;
     top: 123px;
     left: 1124px;
     font-size: 20px;
-    cursor: pointer;
 }
 .phonenumber i{
     
@@ -293,13 +291,12 @@ main{
 
 }
 .navbar-lienhe .contact{
-    background: white;
-    border: 2px solid #fff;
+    background: rgb(224, 223, 223);
 }
 .nav-user-icon{
     margin-left: 80px;
     display: flex;
-    flex-direction: column;
+    
     justify-content: center;
     
 
@@ -322,30 +319,7 @@ main{
     background: #41db51;
     position: absolute;
     top: 0;
-    left: 32px;
-}
-h5{
-    margin-top: 12px;
-    font-weight: bold;
-    margin-left: 30px;
-    color: #333;
-    cursor: pointer;
-}
-h6{
-    display: flex;
-    justify-content: center;
-    color: #333;
-    margin-top:20px ;
-    
-}
-.navbar-lienhe p{
-    cursor: pointer;
-    display: block;
-    color: #333;
-    margin-top: 10px;
-    font-size: 14px;
-    font-weight: bold;
-    margin-left:3px ;
+    left: 33px;
 }
 
 

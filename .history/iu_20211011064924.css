@@ -12,14 +12,12 @@ body{
 .header-img  img{
     width: 1140px;
     height: 150px;
-    margin-left: 6px;
 }
 .phonenumber{
     position: absolute;
     top: 123px;
     left: 1124px;
     font-size: 20px;
-    cursor: pointer;
 }
 .phonenumber i{
     
@@ -137,7 +135,30 @@ body{
 .fa-youtube{
     color: red;
 }
+.nav-user-icon{
+    margin-left: 60px;
 
+}
+.nav-user-icon img{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.online{
+    position: relative;
+}
+.online::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #41db51;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 
 
@@ -233,7 +254,6 @@ main{
 }
 .main .navbar ul .navbar-lienhe {
     background: #aacc00;
-    position: relative;
 }
 .main .navbar ul li:hover {    
     background: white;
@@ -292,63 +312,6 @@ main{
     background: #ffd60a; 
 
 }
-.navbar-lienhe .contact{
-    background: white;
-    border: 2px solid #fff;
-}
-.nav-user-icon{
-    margin-left: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-
-}
-.nav-user-icon img{
-    width: 40px;
-    border-radius: 50%;
-    cursor: pointer;
-
-}
-.online{
-    position: relative;
-}
-.online::after{
-    content: '';
-    width: 7px;
-    height: 7px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    background: #41db51;
-    position: absolute;
-    top: 0;
-    left: 32px;
-}
-h5{
-    margin-top: 12px;
-    font-weight: bold;
-    margin-left: 30px;
-    color: #333;
-    cursor: pointer;
-}
-h6{
-    display: flex;
-    justify-content: center;
-    color: #333;
-    margin-top:20px ;
-    
-}
-.navbar-lienhe p{
-    cursor: pointer;
-    display: block;
-    color: #333;
-    margin-top: 10px;
-    font-size: 14px;
-    font-weight: bold;
-    margin-left:3px ;
-}
-
-
 
 .bodys{
     display: flex;

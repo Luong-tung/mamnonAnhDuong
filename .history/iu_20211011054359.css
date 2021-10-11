@@ -12,19 +12,6 @@ body{
 .header-img  img{
     width: 1140px;
     height: 150px;
-    margin-left: 6px;
-}
-.phonenumber{
-    position: absolute;
-    top: 123px;
-    left: 1124px;
-    font-size: 20px;
-    cursor: pointer;
-}
-.phonenumber i{
-    
-    color: #64b5f6;
-    margin-right: 5px;
 }
 
 
@@ -52,7 +39,7 @@ body{
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    background-color:rgb(233, 230, 230);
+    background-color:rgb(221, 218, 218);
     border: 1px solid #fff;
     text-decoration: none;
     box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
@@ -136,8 +123,8 @@ body{
 }
 .fa-youtube{
     color: red;
-}
 
+}
 
 
 
@@ -150,7 +137,7 @@ body{
 main{
     background-image: url(https://img4.thuthuatphanmem.vn/uploads/2020/12/25/anh-background-cho-thieu-nhi-dep-va-de-thuong_060925501.jpg);
     background-size:cover ;
-    
+    backdrop-filter: blur(8px);
     background-repeat: no-repeat;
 }
 .main{
@@ -233,7 +220,6 @@ main{
 }
 .main .navbar ul .navbar-lienhe {
     background: #aacc00;
-    position: relative;
 }
 .main .navbar ul li:hover {    
     background: white;
@@ -292,63 +278,6 @@ main{
     background: #ffd60a; 
 
 }
-.navbar-lienhe .contact{
-    background: white;
-    border: 2px solid #fff;
-}
-.nav-user-icon{
-    margin-left: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-
-}
-.nav-user-icon img{
-    width: 40px;
-    border-radius: 50%;
-    cursor: pointer;
-
-}
-.online{
-    position: relative;
-}
-.online::after{
-    content: '';
-    width: 7px;
-    height: 7px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    background: #41db51;
-    position: absolute;
-    top: 0;
-    left: 32px;
-}
-h5{
-    margin-top: 12px;
-    font-weight: bold;
-    margin-left: 30px;
-    color: #333;
-    cursor: pointer;
-}
-h6{
-    display: flex;
-    justify-content: center;
-    color: #333;
-    margin-top:20px ;
-    
-}
-.navbar-lienhe p{
-    cursor: pointer;
-    display: block;
-    color: #333;
-    margin-top: 10px;
-    font-size: 14px;
-    font-weight: bold;
-    margin-left:3px ;
-}
-
-
 
 .bodys{
     display: flex;
@@ -390,12 +319,12 @@ h6{
 
 }
 .manual-btn{
-    border:1px solid #52b788;
+    border:1px solid #2d6a4f;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.5s;
-    
+    background: #d8f3dc;
 
     
 }
@@ -427,11 +356,11 @@ h6{
     
 }
 .navigation-auto div{
-    border: 1px solid #52b788;
+    border: 1px solid #2d6a4f;
     padding: 5px;
     border-radius:10px ;
     transition: 0.5s;
-
+    background: #d8f3dc;
 
 }
 .navigation-auto div:not(:last-child){

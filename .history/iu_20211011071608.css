@@ -12,17 +12,15 @@ body{
 .header-img  img{
     width: 1140px;
     height: 150px;
-    margin-left: 6px;
 }
 .phonenumber{
     position: absolute;
     top: 123px;
     left: 1124px;
     font-size: 20px;
-    cursor: pointer;
 }
 .phonenumber i{
-    
+    cursor: pointer;
     color: #64b5f6;
     margin-right: 5px;
 }
@@ -322,7 +320,7 @@ main{
     background: #41db51;
     position: absolute;
     top: 0;
-    left: 32px;
+    left: 33px;
 }
 h5{
     margin-top: 12px;
@@ -336,10 +334,9 @@ h6{
     justify-content: center;
     color: #333;
     margin-top:20px ;
-    
+    cursor: pointer;
 }
 .navbar-lienhe p{
-    cursor: pointer;
     display: block;
     color: #333;
     margin-top: 10px;

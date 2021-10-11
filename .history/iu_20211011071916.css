@@ -12,7 +12,6 @@ body{
 .header-img  img{
     width: 1140px;
     height: 150px;
-    margin-left: 6px;
 }
 .phonenumber{
     position: absolute;
@@ -322,7 +321,7 @@ main{
     background: #41db51;
     position: absolute;
     top: 0;
-    left: 32px;
+    left: 33px;
 }
 h5{
     margin-top: 12px;
