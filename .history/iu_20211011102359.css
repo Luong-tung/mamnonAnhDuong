@@ -468,7 +468,7 @@ h6{
   }
 .col h3{
     font-weight: bold;
-    font-size: 22px;
+    font-size: larger;
 }
 .col-img{
     display: block;
@@ -504,16 +504,16 @@ h6{
 .col:last-child {
     background: rgb(223, 27, 27);
 }
-.img-color1{
-   background: #eea724;
+.col-img:first-child{
+    background: #eea724;
 }
-.img-color2{
+.col-img:nth-child(2){
     background: #70e000;
 }
-.img-color3{
+.col-img:nth-child(3){
     background: #64b5f6;
 }
-.img-color4 {
+.col-img:last-child {
     background: rgb(223, 27, 27);
 }
 
