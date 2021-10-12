@@ -573,7 +573,7 @@ h6{
     align-items: center;
     margin-top:16px;
     width: 310px;
-    
+    position: relative;
     
     
     
@@ -583,7 +583,6 @@ h6{
     width:310px ;
     height: 230px;
     border-radius:5px ;
-    overflow: hidden;
     
     
     
@@ -616,8 +615,8 @@ h6{
 }
 .manual-btn1{
     border:1px solid #52b788;
-    padding: 3px;
-    border-radius: 6px;
+    padding: 2px;
+    border-radius: 3px;
     cursor: pointer;
     transition: 0.5s;
     
@@ -655,8 +654,8 @@ h6{
 }
 .navigation-auto1 div{
     border: 1px solid #52b788;
-    padding: 3px;
-    border-radius:6px ;
+    padding: 2px;
+    border-radius:3px ;
     transition: 0.5s;
 
 

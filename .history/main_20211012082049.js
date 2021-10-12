@@ -8,12 +8,12 @@ setInterval( () =>{
         counter =1;
     }
 },5000);
-var counte = 1;
+var counter2 = 1;
 setInterval( () =>{
-    document.getElementById('radi' + counte).checked = true;
-    counte++;
-    if (counte >4) {
+    document.getElementById('radi' + counter2).checked = true;
+    counter2++;
+    if (counter2 >5) {
 
-        counte =1;
+        counter2 =1;
     }
-},5000)
+},7000)

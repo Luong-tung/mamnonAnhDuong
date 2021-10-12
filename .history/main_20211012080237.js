@@ -7,13 +7,13 @@ setInterval( () =>{
 
         counter =1;
     }
-},5000);
-var counte = 1;
+},5000)
+var counter2 = 1;
 setInterval( () =>{
-    document.getElementById('radi' + counte).checked = true;
-    counte++;
-    if (counte >4) {
+    document.getElementById('radio' + counter2+'s').checked = true;
+    counter2++;
+    if (counter2 >6) {
 
-        counte =1;
+        counter2 =1;
     }
 },5000)

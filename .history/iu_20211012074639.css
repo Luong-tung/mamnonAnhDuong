@@ -565,34 +565,27 @@ h6{
     letter-spacing: 1px;
     margin-left: 30px;
 }
-
 /*silder cho thư viện ảnh*/
 .content-slider{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top:16px;
-    width: 310px;
-    
-    
+    width: 332px;
     
     
 }
 .content-sliders{
-    margin-top: 16px;
-    width:310px ;
+    margin-top: 12px;
+    width:322px ;
     height: 230px;
     border-radius:5px ;
     overflow: hidden;
-    
-    
-    
 }
 .content-slides{
     width: 500%;
     height: 230px;
     display: flex;
-    
 }
 .content-slides input{
     display: none;
@@ -601,14 +594,15 @@ h6{
 .content-slide{
     width: 20%;
     transition: 1s;
+
 }
 .content-slide img{
-    width: 310px;
+    width: 322px;
     height: 230px;
 }
-.content-navigation__manual{
+.content-navigation-manual{
     position: absolute;
-    width: 310px;
+    width: 322px;
     margin-top: 220px;   
     display: flex;
     justify-content: center;
@@ -616,8 +610,8 @@ h6{
 }
 .manual-btn1{
     border:1px solid #52b788;
-    padding: 3px;
-    border-radius: 6px;
+    padding: 2px;
+    border-radius: 3px;
     cursor: pointer;
     transition: 0.5s;
     
@@ -630,33 +624,37 @@ h6{
 .manual-btn1:hover{
     background: #74c69d;
 }
-#radi1:checked ~ .first1{
-    margin-left: 0%;
+#radio1s:checked ~ .first2{
+    margin-left: 0;
 }
-#radi2:checked ~ .first1{
+#radio2s:checked ~ .first2{
     margin-left: -20%;
 }
-#radi3:checked ~ .first1{
+#radio3s:checked ~ .first2{
     margin-left: -40%;
 }
-#radi4:checked ~ .first1{
+#radio4s:checked ~ .first2{
     margin-left: -60%;
 }
-
-
+#radio5s:checked ~ .first2{
+    margin-left: -80%;
+}
+#radio6s:checked ~ .first2{
+    margin-left: -100%;
+}
 
 .navigation-auto1{
     position:absolute;
     display: flex;
-    width: 310px;
-    margin-top:220px;
+    width: 332px;
+    margin-top:220 px;
     justify-content: center;
     
 }
 .navigation-auto1 div{
     border: 1px solid #52b788;
-    padding: 3px;
-    border-radius:6px ;
+    padding: 2px;
+    border-radius:3px ;
     transition: 0.5s;
 
 
@@ -665,19 +663,27 @@ h6{
     margin-right: 20px;
 }
 
-#radi1:checked ~ .navigation-auto1 .auto-btn1s{
+#radio1s:checked ~ .navigation-auto1 .auto-btn1s{
     background: #74c69d;
     
 }
-#radi2:checked ~ .navigation-auto1 .auto-btn2s{
+#radio2s:checked ~ .navigation-auto1 .auto-btn2s{
     background: #74c69d;
     
 }
-#radi3:checked ~ .navigation-auto1 .auto-btn3s{
+#radio3s:checked ~ .navigation-auto1 .auto-btn3s{
     background: #74c69d;
     
 }
-#radi4:checked ~ .navigation-auto1 .auto-btn4s{
+#radio4s:checked ~ .navigation-auto1 .auto-btn4s{
+    background:#74c69d;
+    
+}
+#radio5s:checked ~ .navigation-auto1 .auto-btn5s{
+    background:#74c69d;
+    
+}
+#radio6s:checked ~ .navigation-auto1 .auto-btn6s{
     background:#74c69d;
     
 }

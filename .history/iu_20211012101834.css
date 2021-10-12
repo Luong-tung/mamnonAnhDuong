@@ -616,8 +616,8 @@ h6{
 }
 .manual-btn1{
     border:1px solid #52b788;
-    padding: 3px;
-    border-radius: 6px;
+    padding: 2px;
+    border-radius: 3px;
     cursor: pointer;
     transition: 0.5s;
     
@@ -630,16 +630,16 @@ h6{
 .manual-btn1:hover{
     background: #74c69d;
 }
-#radi1:checked ~ .first1{
+#radi1:hover ~ .first1{
     margin-left: 0%;
 }
-#radi2:checked ~ .first1{
+#radi2:hover ~ .first1{
     margin-left: -20%;
 }
-#radi3:checked ~ .first1{
+#radi3:hover ~ .first1{
     margin-left: -40%;
 }
-#radi4:checked ~ .first1{
+#radi4:hover ~ .first1{
     margin-left: -60%;
 }
 
@@ -655,8 +655,8 @@ h6{
 }
 .navigation-auto1 div{
     border: 1px solid #52b788;
-    padding: 3px;
-    border-radius:6px ;
+    padding: 2px;
+    border-radius:3px ;
     transition: 0.5s;
 
 

@@ -48,7 +48,7 @@ body{
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    background-color:rgb(241, 240, 240);
+    background-color:rgb(233, 230, 230);
     border: 1px solid #fff;
     text-decoration: none;
     box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
@@ -175,7 +175,7 @@ main{
     list-style: none;
     height: 48px;    
     padding: 0 28px;
-    border: 1px solid rgb(236, 233, 233);
+    border: 1px solid rgb(209, 208, 208);
 }
 .main .navbar ul .navbar-home i{
     font-size: 19px;
@@ -387,7 +387,7 @@ h6{
 }
 .navigation-manual{
     position: absolute;
-    width: 1140px;
+    width: 1240px;
     margin-top: 390px;
     
     display: flex;
@@ -465,7 +465,7 @@ h6{
     margin-top: 16px;
     height: 400px;
     background: #fff;
-    border: 3px solid #fff;
+    border: 1px solid #fff;
     text-align: center;
     border-radius: 14px;
     color: white;
@@ -528,8 +528,6 @@ h6{
     font-weight: bold;
     color: white;
 }
-
-
 /*tạo nội dung content*/
 .content-row{
     display: flex;
@@ -537,147 +535,9 @@ h6{
 }
 .content-col{
     margin-top: 12px;
-    border: 6px solid rgb(223, 220, 220);
+    border-radius: 10px;
+    border: 2px solid white;
     height: 340px;
-    background: #fff;
-    position: relative;
-    
-
-}
-.content-title{
-    height: 40px;
-    display: flex;
-    align-items: center;
-    border-bottom: 2px solid rgb(197, 5, 5);
-
-}
-.content-title .content-title__red{
-    background: rgb(197, 5, 5);
-    width: 6px;
-    height: 40px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.content-title h3{
-    color: rgb(197, 5, 5);
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin-left: 30px;
-}
-
-/*silder cho thư viện ảnh*/
-.content-slider{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top:16px;
-    width: 310px;
-    
-    
-    
-    
-}
-.content-sliders{
-    margin-top: 16px;
-    width:310px ;
-    height: 230px;
-    border-radius:5px ;
-    overflow: hidden;
-    
-    
-    
-}
-.content-slides{
-    width: 500%;
-    height: 230px;
-    display: flex;
-    
-}
-.content-slides input{
-    display: none;
-
-}
-.content-slide{
-    width: 20%;
-    transition: 1s;
-}
-.content-slide img{
-    width: 310px;
-    height: 230px;
-}
-.content-navigation__manual{
-    position: absolute;
-    width: 310px;
-    margin-top: 220px;   
-    display: flex;
-    justify-content: center;
-
-}
-.manual-btn1{
-    border:1px solid #52b788;
-    padding: 3px;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: 0.5s;
-    
-
-    
-}
-.manual-btn1:not(:last-child){
-    margin-right: 20px;
-}
-.manual-btn1:hover{
+    text-align: center;
     background: #74c69d;
-}
-#radi1:checked ~ .first1{
-    margin-left: 0%;
-}
-#radi2:checked ~ .first1{
-    margin-left: -20%;
-}
-#radi3:checked ~ .first1{
-    margin-left: -40%;
-}
-#radi4:checked ~ .first1{
-    margin-left: -60%;
-}
-
-
-
-.navigation-auto1{
-    position:absolute;
-    display: flex;
-    width: 310px;
-    margin-top:220px;
-    justify-content: center;
-    
-}
-.navigation-auto1 div{
-    border: 1px solid #52b788;
-    padding: 3px;
-    border-radius:6px ;
-    transition: 0.5s;
-
-
-}
-.navigation-auto1 div:not(:last-child){
-    margin-right: 20px;
-}
-
-#radi1:checked ~ .navigation-auto1 .auto-btn1s{
-    background: #74c69d;
-    
-}
-#radi2:checked ~ .navigation-auto1 .auto-btn2s{
-    background: #74c69d;
-    
-}
-#radi3:checked ~ .navigation-auto1 .auto-btn3s{
-    background: #74c69d;
-    
-}
-#radi4:checked ~ .navigation-auto1 .auto-btn4s{
-    background:#74c69d;
-    
 }

@@ -630,16 +630,16 @@ h6{
 .manual-btn1:hover{
     background: #74c69d;
 }
-#radi1:checked ~ .first1{
+#radi1:hover ~ .first1{
     margin-left: 0%;
 }
-#radi2:checked ~ .first1{
+#radi2:hover ~ .first1{
     margin-left: -20%;
 }
-#radi3:checked ~ .first1{
+#radi3:hover ~ .first1{
     margin-left: -40%;
 }
-#radi4:checked ~ .first1{
+#radi4:hover ~ .first1{
     margin-left: -60%;
 }
 
@@ -665,19 +665,19 @@ h6{
     margin-right: 20px;
 }
 
-#radi1:checked ~ .navigation-auto1 .auto-btn1s{
+#radi1:hover ~ .navigation-auto1 .auto-btn1s{
     background: #74c69d;
     
 }
-#radi2:checked ~ .navigation-auto1 .auto-btn2s{
+#radi2:hover ~ .navigation-auto1 .auto-btn2s{
     background: #74c69d;
     
 }
-#radi3:checked ~ .navigation-auto1 .auto-btn3s{
+#radi3:hover ~ .navigation-auto1 .auto-btn3s{
     background: #74c69d;
     
 }
-#radi4:checked ~ .navigation-auto1 .auto-btn4s{
+#radi4:hover ~ .navigation-auto1 .auto-btn4s{
     background:#74c69d;
     
 }

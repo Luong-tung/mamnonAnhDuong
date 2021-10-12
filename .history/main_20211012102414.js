@@ -1,4 +1,4 @@
-
+/*
 var counter = 1;
 setInterval( () =>{
     document.getElementById('radio' + counter).checked = true;
@@ -7,10 +7,10 @@ setInterval( () =>{
 
         counter =1;
     }
-},5000);
+},5000);*/
 var counte = 1;
 setInterval( () =>{
-    document.getElementById('radi' + counte).checked = true;
+    document.getElementById('radi' + counte).hover = true;
     counte++;
     if (counte >4) {
 
