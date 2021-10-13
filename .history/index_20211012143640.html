@@ -193,7 +193,8 @@
                         <input type="radio" name="radio-btn1" id="radi2">
                         <input type="radio" name="radio-btn1" id="radi3">
                         <input type="radio" name="radio-btn1" id="radi4">
-                                                    
+                                 
+                        
                         <div class="content-slide first1">
                             <img src="IMG_1380.JPG" >
                         </div>
@@ -207,58 +208,31 @@
                         <div class="content-slide">
                             <img src="IMG_1383.JPG">
                         </div>
-                                                          
+                        
+                                               
                         <div class="navigation-auto1">
                             <div class="auto-btn1s"></div>
                             <div class="auto-btn2s"></div>
                             <div class="auto-btn3s"></div>
-                            <div class="auto-btn4s"></div>                           
+                            <div class="auto-btn4s"></div> 
+                           
+
+                                                              
                         </div>
                         <div class="content-navigation__manual">
                             <label for="radi1" class="manual-btn1"></label>
                             <label for="radi2" class="manual-btn1"></label>
                             <label for="radi3" class="manual-btn1"></label>                          
                             <label for="radi4" class="manual-btn1"></label>
+                                                  
+                              
                         </div>
                     </div>    
                 </div>       
             </div>
-            <!--ket thúc slider-->
-            <section>
-                <ul>
-                    <li class="list active" data-filter="all">Tất cả</li>
-                    <li class="list" data-filter="daubep">Đầu Bếp</li>
-                    <li class="list" data-filter="trochoi">Trò Chơi</li>
-                    <li class="list" data-filter="hocve">Học Vẽ</li>
-                    <li class="list" data-filter="tiengviet">Tiếng Việt</li>
-                </ul>
-                <div class="product">                 
-                    <div class="itemBox daubep"><img src="IMG_1395.JPG"></div>
-                    <div class="itemBox trochoi"><img src="IMG_1400.JPG"></div>
-                    <div class="itemBox hocve"><img src="IMG_1405.JPG"></div>
-                    <div class="itemBox tiengviet"><img src="IMG_1410.JPG"></div>
-                    <div class="itemBox daubep"><img src="IMG_1396.JPG"></div>
-                    <div class="itemBox trochoi"><img src="IMG_1401.JPG"></div>
-                    <div class="itemBox hocve"><img src="IMG_1406.JPG"></div>
-                    <div class="itemBox tiengviet"><img src="IMG_1411.JPG"></div>
-                    <div class="itemBox daubep"><img src="IMG_1397.JPG"></div>
-                    <div class="itemBox trochoi"><img src="IMG_1402.JPG"></div>
-                    <div class="itemBox hocve"><img src="IMG_1407.JPG"></div>
-                    <div class="itemBox tiengviet"><img src="IMG_1412.JPG"></div>
-                    <div class="itemBox daubep"><img src="IMG_1398.JPG"></div>
-                    <div class="itemBox trochoi"><img src="IMG_1403.JPG"></div>
-                    <div class="itemBox hocve"><img src="IMG_1408.JPG"></div>
-                    <div class="itemBox tiengviet"><img src="IMG_1413.JPG"></div>
-                    <div class="itemBox daubep"><img src="IMG_1399.JPG"></div>
-                    <div class="itemBox trochoi"><img src="IMG_1404.JPG"></div>
-                    <div class="itemBox hocve"><img src="IMG_1409.JPG"></div>
-                    <div class="itemBox tiengviet"><img src="IMG_1415.JPG"></div>
-                    
-                </div>
+        </div>
 
-            </section>
-
-        </div>      
+            
     </div>
 </div>
  
@@ -276,26 +250,6 @@
 
 
     </main>
-    <script
-    src="https://code.jquery.com/jquery-3.6.0.js"
-    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
     <script src="./main.js"></script>
-    <script type="text/javascript">
-    $(document).ready( function() {
-    $('.list').click( function(){
-        const value = $(this).attr('data-filter');
-        if (value == 'all'){
-            $('.itemBox').show('1000');
-        }
-        else{
-            $('.itemBox').not('.'+value).hide('1000');
-            $('.itemBox').filter('.'+value).show('1000');
-        }
-    })
-})
-$('.list').click( function() {
-    $(this).addClass('active').siblings().removeClass('active')
-})    </script>
 </body>
 </html>

@@ -142,8 +142,9 @@ body{
 
 
 main{
-    background-image: url(pngtree-lovely-building-paradise-background-image_224245\ \(1\).jpg);
-    background-size:100% 100%;
+    background-image: url(https://img4.thuthuatphanmem.vn/uploads/2020/12/25/anh-background-cho-thieu-nhi-dep-va-de-thuong_060925501.jpg);
+    background-size:cover ;
+    
     background-repeat: no-repeat;
 }
 .main{
@@ -536,7 +537,7 @@ h6{
 .content-col{
     margin-top: 12px;
     border: 6px solid rgb(223, 220, 220);
-    height: 940px;
+    height: 640px;
     background: #fff;
     position: relative;
     
@@ -640,6 +641,13 @@ h6{
 #radi4:checked ~ .first1{
     margin-left: -60%;
 }
+#radi5:checked ~ .first1{
+    margin-left: -60%;
+}
+#radi6:checked ~ .first1{
+    margin-left: -60%;
+}
+
 
 
 .navigation-auto1{
@@ -678,51 +686,11 @@ h6{
     background:#74c69d;
     
 }
-section ul{
-    margin-top: 18px;
-    display: flex;
-    margin-bottom: 10px;
-
+#radi5:checked ~ .navigation-auto1 .auto-btn5s{
+    background:#74c69d;
+    
 }
-section ul li{
-    list-style: none;
-    background: #eee;
-    padding: 3px 5px;
-    margin: 1px;
-    cursor: pointer;
-    text-align: center;
-    font-size: 13px;
-    font-weight: bold;
+#radi6:checked ~ .navigation-auto1 .auto-btn6s{
+    background:#74c69d;
+    
 }
-section ul  .active{
-    background: #03a9f4;
-    color: #fff;
-}
-.product{
-    display: flex;
-    flex-wrap: wrap;
-}
-.product .itemBox{
-    position: relative;
-    width:96px ;
-    height: 80px;
-    margin: 2px;
-}
-.product .itemBox img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: all 0.5s ease-in-out ; 
-    z-index: 1;   
-    cursor: pointer;     
-}
-.product .itemBox img:hover{
-    transform: scale(1.9);
-    filter:  saturate(120%);
-    filter: brightness(120%);
-    z-index: 2;
-}
-

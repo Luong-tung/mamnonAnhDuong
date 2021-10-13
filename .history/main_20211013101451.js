@@ -17,3 +17,18 @@ setInterval( () =>{
         counte =1;
     }
 },5000)
+$(document).ready( () =>{
+    $('list').click( () =>{
+        const value = $(this).attr('data-filter');
+        if (value == 'All'){
+            $('.itemBox').show('1000');
+        }
+        else{
+            $('.itemBox').not('.'+value).hide('1000');
+            $('.itemBox').filter('.'+value).show('1000');
+
+
+
+        }
+    })
+})

@@ -587,7 +587,7 @@ h6{
     
 }
 .content-slides{
-    width: 500%;
+    width: 700%;
     height: 230px;
     display: flex;
     
@@ -722,7 +722,7 @@ section ul  .active{
 .product .itemBox img:hover{
     transform: scale(1.9);
     filter:  saturate(120%);
-    filter: brightness(120%);
+    filter: brightness(110%);
     z-index: 2;
 }
 

@@ -282,8 +282,8 @@
     crossorigin="anonymous"></script>
     <script src="./main.js"></script>
     <script type="text/javascript">
-    $(document).ready( function() {
-    $('.list').click( function(){
+    $(document).ready( () =>{
+    $('.list').click( () =>{
         const value = $(this).attr('data-filter');
         if (value == 'all'){
             $('.itemBox').show('1000');
@@ -294,7 +294,7 @@
         }
     })
 })
-$('.list').click( function() {
+$('.list').click( () => {
     $(this).addClass('active').siblings().removeClass('active')
 })    </script>
 </body>

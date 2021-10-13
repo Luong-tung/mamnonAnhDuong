@@ -226,7 +226,7 @@
             <!--ket thúc slider-->
             <section>
                 <ul>
-                    <li class="list active" data-filter="all">Tất cả</li>
+                    <li class="list active" data-filter="All">Tất cả</li>
                     <li class="list" data-filter="daubep">Đầu Bếp</li>
                     <li class="list" data-filter="trochoi">Trò Chơi</li>
                     <li class="list" data-filter="hocve">Học Vẽ</li>
@@ -282,10 +282,10 @@
     crossorigin="anonymous"></script>
     <script src="./main.js"></script>
     <script type="text/javascript">
-    $(document).ready( function() {
-    $('.list').click( function(){
+    $(document).ready( () =>{
+    $('.list').click( () =>{
         const value = $(this).attr('data-filter');
-        if (value == 'all'){
+        if (value == 'All'){
             $('.itemBox').show('1000');
         }
         else{
@@ -294,7 +294,7 @@
         }
     })
 })
-$('.list').click( function() {
+$('.list').click( () => {
     $(this).addClass('active').siblings().removeClass('active')
 })    </script>
 </body>

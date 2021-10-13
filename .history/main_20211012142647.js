@@ -12,7 +12,7 @@ var counte = 1;
 setInterval( () =>{
     document.getElementById('radi' + counte).checked = true;
     counte++;
-    if (counte >4) {
+    if (counte >6) {
 
         counte =1;
     }

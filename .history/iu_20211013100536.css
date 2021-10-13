@@ -142,8 +142,9 @@ body{
 
 
 main{
-    background-image: url(pngtree-lovely-building-paradise-background-image_224245\ \(1\).jpg);
-    background-size:100% 100%;
+    background-image: url(https://img4.thuthuatphanmem.vn/uploads/2020/12/25/anh-background-cho-thieu-nhi-dep-va-de-thuong_060925501.jpg);
+    background-size:cover ;
+    
     background-repeat: no-repeat;
 }
 .main{
@@ -536,7 +537,7 @@ h6{
 .content-col{
     margin-top: 12px;
     border: 6px solid rgb(223, 220, 220);
-    height: 940px;
+    height: 640px;
     background: #fff;
     position: relative;
     
@@ -587,7 +588,7 @@ h6{
     
 }
 .content-slides{
-    width: 500%;
+    width: 700%;
     height: 230px;
     display: flex;
     
@@ -679,7 +680,6 @@ h6{
     
 }
 section ul{
-    margin-top: 18px;
     display: flex;
     margin-bottom: 10px;
 
@@ -704,8 +704,8 @@ section ul  .active{
 }
 .product .itemBox{
     position: relative;
-    width:96px ;
-    height: 80px;
+    width:80px ;
+    height: 60px;
     margin: 2px;
 }
 .product .itemBox img{
@@ -715,14 +715,4 @@ section ul  .active{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: all 0.5s ease-in-out ; 
-    z-index: 1;   
-    cursor: pointer;     
 }
-.product .itemBox img:hover{
-    transform: scale(1.9);
-    filter:  saturate(120%);
-    filter: brightness(120%);
-    z-index: 2;
-}
-
