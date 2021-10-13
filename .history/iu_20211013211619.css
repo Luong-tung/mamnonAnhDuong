@@ -571,22 +571,16 @@ h6{
 .content-event img{
     height: 80px;
     width: 100px;
-    margin: 10px 10px 10px 30px ;
-    cursor: pointer;  
+    margin: 10px;    
 }
 .content-event__note{
-    margin-left: 10px;
+    margin-left: 20px;
     padding: 10px;
 
 }
 .content-event__note h6{
-    cursor: pointer;
     font-size: 18px;
-    font-weight: bold; 
-    cursor: pointer;   
-}
-.content-event__note h6:hover{
-    color: rgb(0, 119, 255);
+    font-weight: bold;    
 }
 .content-event__note p{
     font-size: 12px;

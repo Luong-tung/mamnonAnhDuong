@@ -571,8 +571,7 @@ h6{
 .content-event img{
     height: 80px;
     width: 100px;
-    margin: 10px 10px 10px 30px ;
-    cursor: pointer;  
+    margin: 10px 10px 10px 30px    
 }
 .content-event__note{
     margin-left: 10px;
