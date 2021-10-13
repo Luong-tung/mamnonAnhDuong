@@ -143,13 +143,15 @@ body{
 
 
 main{
-    background-image: url(https://i.pinimg.com/736x/6d/f9/f9/6df9f905a2f32d50a729adf1bc23d432.jpg);
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-summer-graduation-trip-journal-bachelor-cap-image_25239.jpg);
     background-size:100% 100%;
-    background-repeat: no-repeat;       
+    background-repeat: no-repeat;
+    
 }
 .main{
     margin-left: 110px;
     width: 1140px;
+    
     margin-top: -2px;
 
 

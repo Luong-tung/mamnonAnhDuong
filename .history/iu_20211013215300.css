@@ -38,12 +38,12 @@ body{
     top: 0;
     right: 0;
     position: fixed;
-    margin-top: 12px;
 }
 .header .header-icons a{
     display: flex;
     margin-bottom: 10px;
     margin-right: 12px;
+    margin-top: 12px;
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -143,13 +143,14 @@ body{
 
 
 main{
-    background-image: url(https://i.pinimg.com/736x/6d/f9/f9/6df9f905a2f32d50a729adf1bc23d432.jpg);
+    background-image: url(pngtree-lovely-building-paradise-background-image_224245\ \(1\).jpg);
     background-size:100% 100%;
-    background-repeat: no-repeat;       
+    background-repeat: no-repeat;
 }
 .main{
-    margin-left: 110px;
+    margin-left: 6px;
     width: 1140px;
+    
     margin-top: -2px;
 
 
