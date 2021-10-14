@@ -598,7 +598,6 @@ h6{
     font-size: 12px;
     color: #727271;
     margin-left: 20px;
-    margin-top: 12px;
 }
 
 
@@ -805,7 +804,6 @@ section ul  .active{
 .content-studychilds__big img{
     width: 360px;
     height: 210px;
-    cursor: pointer;
     border: 24px solid;
     border-radius: 8px;
     border-image-slice: 60 60 60 60;
@@ -831,15 +829,13 @@ section ul  .active{
 }
 .content-studychilds-img img{
     height: 80px;
-    cursor: pointer;
     width: 100px;
     border: 12px solid;
-    border-image-slice: 38 38 38 38;
+    border-image-slice: 3838 38 38;
     border-image-source:url(https://www.gifstop.com/images/borders/pinkborder.gif);
 }
 .content-studychilds-img p{
     margin: 14px;
     font-size: 16px;
-    cursor: pointer;
 
 }

@@ -572,13 +572,10 @@ h6{
     display: flex;    
 }
 .content-event img{
-    height:80px;
+    height: 80px;
     width: 100px;
-    border:10px solid;
-    margin:6px 14px 6px 10px;
-    cursor: pointer; 
-    border-image: url(https://www.pngkit.com/png/full/110-1102929_php-at-easyphpalbum-electric-blue.png);
-    border-image-slice: 40 40 40 40; 
+    margin: 10px 10px 10px 30px ;
+    cursor: pointer;  
 }
 .content-event__note{
     margin-left: 10px;
@@ -598,7 +595,6 @@ h6{
     font-size: 12px;
     color: #727271;
     margin-left: 20px;
-    margin-top: 12px;
 }
 
 
@@ -803,43 +799,13 @@ section ul  .active{
     flex-direction: column;
 }
 .content-studychilds__big img{
-    width: 360px;
-    height: 210px;
-    cursor: pointer;
+    width: 370px;
+    height: 220px;
     border: 24px solid;
-    border-radius: 8px;
-    border-image-slice: 60 60 60 60;
-    border-image-source:url(https://p.kindpng.com/picc/s/20-205725_transparent-merry-christmas-border-transparent-cartoons-transparent-merry.png) ;
+    border-image-slice: 40 40 40 40 ;
+    border-image-source:url(https://lh3.googleusercontent.com/proxy/qG9TkFqTSeu_r-qmXk6cV3IxE1d8WlHOTg-PIWEHjiYqDyg8REw0Svacy95wkc1rZk-NoLS4C1Hn89XEvfqMuKhaZIZC6s0) ;
 }
 .content-studychilds__big p{
-    font-size: 20px;
-    margin-top: 12px;
-    margin-left: 16px;
-    
-}
-.content-studychilds__small{
-    display: flex;
-    flex-direction: column;
-
-}
-.content-studychilds-img{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 28%;
-    border-bottom: 2px solid #acacaa;
-}
-.content-studychilds-img img{
-    height: 80px;
-    cursor: pointer;
-    width: 100px;
-    border: 12px solid;
-    border-image-slice: 38 38 38 38;
-    border-image-source:url(https://www.gifstop.com/images/borders/pinkborder.gif);
-}
-.content-studychilds-img p{
-    margin: 14px;
     font-size: 16px;
-    cursor: pointer;
-
+    margin-top: 12px;
 }

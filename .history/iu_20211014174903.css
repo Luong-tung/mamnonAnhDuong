@@ -575,7 +575,7 @@ h6{
     height:80px;
     width: 100px;
     border:10px solid;
-    margin:6px 14px 6px 10px;
+    margin:5px 16px 5px 10px
     cursor: pointer; 
     border-image: url(https://www.pngkit.com/png/full/110-1102929_php-at-easyphpalbum-electric-blue.png);
     border-image-slice: 40 40 40 40; 
@@ -598,7 +598,6 @@ h6{
     font-size: 12px;
     color: #727271;
     margin-left: 20px;
-    margin-top: 12px;
 }
 
 
@@ -805,7 +804,6 @@ section ul  .active{
 .content-studychilds__big img{
     width: 360px;
     height: 210px;
-    cursor: pointer;
     border: 24px solid;
     border-radius: 8px;
     border-image-slice: 60 60 60 60;
@@ -831,15 +829,13 @@ section ul  .active{
 }
 .content-studychilds-img img{
     height: 80px;
-    cursor: pointer;
     width: 100px;
     border: 12px solid;
-    border-image-slice: 38 38 38 38;
+    border-image-slice: 3838 38 38;
     border-image-source:url(https://www.gifstop.com/images/borders/pinkborder.gif);
 }
 .content-studychilds-img p{
     margin: 14px;
     font-size: 16px;
-    cursor: pointer;
 
 }
