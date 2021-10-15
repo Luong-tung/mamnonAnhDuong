@@ -802,8 +802,8 @@ section ul  .active{
     flex-direction: column;
 }
 .content-studychilds__big img{
-    width: 360px;
-    height: 210px;
+    width: 82%;
+    height: 52%;
     cursor: pointer;
     border: 24px solid;
     filter:  saturate(120%);

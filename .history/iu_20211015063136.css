@@ -10,12 +10,8 @@ body{
 }
 
 
-.header-img{
-    width: 100%;
-    height: 150px;
-}
 .header-img  img{
-    width: 85%;
+    width: 1140px;
     height: 150px;
     margin-left: 6px;
 }
@@ -154,7 +150,7 @@ main{
 .main{
     margin-left: 110px;
     width: 1140px;
-    margin-top: 2px;
+    margin-top: -2px;
 
 
 }
@@ -578,8 +574,6 @@ h6{
 .content-event img{
     height:80px;
     width: 100px;
-    filter:  saturate(120%);
-    filter: brightness(110%);
     border:10px solid;
     margin:6px 14px 6px 10px;
     cursor: pointer; 
@@ -646,8 +640,6 @@ h6{
 .content-slide img{
     width: 310px;
     height: 230px;
-    filter:  saturate(120%);
-    filter: brightness(110%);
 }
 .content-navigation__manual{
     position: absolute;
@@ -769,7 +761,7 @@ section ul  .active{
 
 .content-studychild{
     height: 400px;
-    border: 1px dashed #03a9f4;
+    border: 1px solid #03a9f4;
 }
 .content-studychild__title{
     height: 40px;
@@ -806,8 +798,6 @@ section ul  .active{
     height: 210px;
     cursor: pointer;
     border: 24px solid;
-    filter:  saturate(120%);
-    filter: brightness(110%);
     border-radius: 8px;
     border-image-slice: 60 60 60 60;
     border-image-source:url(https://p.kindpng.com/picc/s/20-205725_transparent-merry-christmas-border-transparent-cartoons-transparent-merry.png) ;
@@ -834,8 +824,6 @@ section ul  .active{
     height: 80px;
     cursor: pointer;
     width: 100px;
-    filter:  saturate(120%);
-    filter: brightness(110%);
     border: 12px solid;
     border-image-slice: 38 38 38 38;
     border-image-source:url(https://www.gifstop.com/images/borders/pinkborder.gif);
@@ -845,166 +833,3 @@ section ul  .active{
     font-size: 16px;
     cursor: pointer;
 }
-
-/*phần footer*/
-
-.footer-distributed{
-	background: rgb(68, 68, 68);
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	text-align: left;
-	font: bold 16px sans-serif;
-	padding: 35px 40px;
-}
-
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
-	display: inline-block;
-	vertical-align: top;
-}
-
-/* Footer left */
-
-.footer-distributed .footer-left{
-	width: 40%;
-}
-
-/* The school logo */
-
-.footer-distributed h3{
-	color:  #ffffff;
-	font: normal 36px 'Open Sans', cursive;
-	margin: 0;
-}
-
-.footer-distributed h3 span{
-	color:  lightseagreen;
-}
-
-/* Footer links */
-
-.footer-distributed .footer-links{
-	color:  #ffffff;
-	margin: 20px 0 12px;
-	padding: 0;
-}
-
-.footer-distributed .footer-links a{
-	display:inline-block;
-	line-height: 1.8;
-  font-weight:400;
-	text-decoration: none;
-	color:  inherit;
-}
-
-/* Footer Center */
-
-.footer-distributed .footer-center{
-	width: 35%;
-}
-
-.footer-distributed .footer-center i{
-	background-color:  #33383b;
-	color: #ffffff;
-	font-size: 25px;
-	width: 38px;
-	height: 38px;
-	border-radius: 50%;
-	text-align: center;
-	line-height: 42px;
-	margin: 10px 15px;
-	vertical-align: middle;
-}
-
-.footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 38px;
-}
-
-.footer-distributed .footer-center p{
-	display: inline-block;
-	color: #ffffff;
-  font-weight:400;
-	vertical-align: middle;
-	margin:0;
-}
-
-.footer-distributed .footer-center p span{
-	display:block;
-	font-weight: normal;
-	font-size:14px;
-	line-height:2;
-}
-
-.footer-distributed .footer-center p a{
-	color:  lightseagreen;
-	text-decoration: none;;
-}
-
-.footer-distributed .footer-links a:before {
-  content: "|";
-  font-weight:300;
-  font-size: 20px;
-  left: 0;
-  color: #fff;
-  display: inline-block;
-  padding-right: 5px;
-}
-
-.footer-distributed .footer-links .link-1:before {
-  content: none;
-}
-
-/* Footer Right */
-
-.footer-distributed .footer-right{
-	width: 20%;
-}
-
-.footer-distributed .footer-about{
-	line-height: 20px;
-	font-size: 13px;
-	font-weight: normal;
-	margin: 0;
-}
-
-.footer-distributed .footer-about span{
-	display: block;
-	color:  #ffffff;
-	font-size: 14px;
-	font-weight: bold;
-	margin-bottom: 20px;
-}
-
-.footer-distributed .footer-icons{
-	margin-top: 25px;
-}
-
-.footer-distributed .footer-icons a{
-	display: inline-block;
-	width: 35px;
-	height: 35px;
-	cursor: pointer;
-    margin-right: 6px;
-	border-radius: 6px;
-    background-color: #33383b;
-	font-size: 20px;
-	color: #fff;
-	text-align: center;
-	line-height: 35px;
-
-	margin-right: 3px;
-	margin-bottom: 5px;
-}
-.footer-distributed .footer-icons ul{
-    display: flex;
-}
-
-.footer-distributed .footer-icons li{
-    list-style: none;
-}
-
-
-

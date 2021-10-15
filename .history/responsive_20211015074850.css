@@ -29,13 +29,5 @@
         width: 90%;
         height: 50%;
         margin: 2px;
-    }
-    .content-event__note{
-        padding: 5px;
-    }
-    .content-event__note p{
-        margin-top: 2px;
-    }
-    .grid-col .col-content{
-        margin-top: 2px;
-    }
+
+}

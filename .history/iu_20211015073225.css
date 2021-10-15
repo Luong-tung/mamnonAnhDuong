@@ -154,7 +154,7 @@ main{
 .main{
     margin-left: 110px;
     width: 1140px;
-    margin-top: 2px;
+    margin-top: -2px;
 
 
 }
@@ -576,8 +576,8 @@ h6{
     display: flex;    
 }
 .content-event img{
-    height:80px;
-    width: 100px;
+    height:30%px;
+    width: 40%px;
     filter:  saturate(120%);
     filter: brightness(110%);
     border:10px solid;
