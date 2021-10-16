@@ -63,12 +63,21 @@
         margin-bottom: 2px;
         cursor: pointer;
         transition: all 0.3s ease-in-out ;
-               
+        filter:  saturate(120%);
+        filter: brightness(110%);
+        animation: tung 5s 5s ease infinite;
     }
     .col-img img:hover{
         transform: scale(1.5);
-        filter:  saturate(120%);
-        filter: brightness(110%);
+    }
+    @keyframes tung {
+        from{
+            transform: scale(1);
+        }
+        to{
+        transform: scale(1.7);    
+        }
+        
     }
 
 }
