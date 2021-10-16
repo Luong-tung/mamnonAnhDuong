@@ -544,10 +544,10 @@ h6{
     position: relative;
 }
 .content-col:first-child{
-    height: 1500px;
+    height: 1200px;
 }
 .content-col:last-child{
-    height: 1500px;
+    height: 980px;
 }
 .content-title{
     height: 40px;
@@ -606,99 +606,6 @@ h6{
     margin-left: 20px;
     margin-top: 12px;
 }
-.content-studychild{
-    height: 400px;
-    border: 1px dashed #03a9f4;
-}
-.content-studychild__title{
-    height: 40px;
-    display: flex;
-    background: #03a9f4;
-    align-items: center;
-}
-.content-studychild__title i{
-    font-size: 24px;
-    color: #eef104;
-    margin:10px;  
-    display: inline-block;  
-}
-.content-studychild__title h6{
-    color: white;
-    font-size:20px;
-    font-weight: bold;
-    letter-spacing: 0.8px;
-    margin: 12px;
-}
-.content-studychilds{
-    display: flex;
-    width: 100%;
-    height: 100%;
-
-}
-.content-studychilds__big{
-    margin: 12px;
-    display: flex;
-    flex-direction: column;
-}
-.content-studychilds__big img{
-    width: 360px;
-    height: 210px;
-    cursor: pointer;
-    border: 24px solid;
-    filter:  saturate(120%);
-    filter: brightness(110%);
-    border-radius: 8px;
-    border-image-slice: 60 60 60 60;
-    border-image-source:url(https://p.kindpng.com/picc/s/20-205725_transparent-merry-christmas-border-transparent-cartoons-transparent-merry.png) ;
-}
-.content-studychilds__big p{
-    font-size: 20px;
-    margin-top: 12px;
-    margin-left: 16px;
-    font-weight: bold;
-    color: #333;
-
-    
-}
-.content-studychilds__small{
-    display: flex;
-    flex-direction: column;
-
-}
-.content-studychilds-img{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 28%;
-    border-bottom: 2px solid #acacaa;
-}
-.content-studychilds-img img{
-    height: 80px;
-    cursor: pointer;
-    width: 100px;
-    filter:  saturate(120%);
-    filter: brightness(110%);
-    border: 12px solid;
-    border-image-slice: 38 38 38 38;
-    border-image-source:url(https://www.gifstop.com/images/borders/pinkborder.gif);
-}
-.content-studychilds-img p{
-    margin: 14px;
-    font-size: 16px;
-    cursor: pointer;
-    color:black
-}
-.content-studychilds-img p:hover{
-    color: #666768;
-}
-.content-studychild .khuyencao{
-    width: 100%;
-    height: 85%;
-}
-
-
-
-
 
 /*silder cho thư viện ảnh*/
 .content-slider{
@@ -707,7 +614,10 @@ h6{
     align-items: center;
     margin-top:12px;
     width: 310px;
-        
+    
+    
+    
+    
 }
 .content-sliders{
     margin-top: 16px;
@@ -715,7 +625,9 @@ h6{
     height: 230px;
     border-radius:5px ;
     overflow: hidden;
-
+    
+    
+    
 }
 .content-slides{
     width: 500%;
@@ -854,27 +766,92 @@ section ul  .active{
     filter:  saturate(120%);
     filter: brightness(110%);   
 }
-.content-studychild-link{
-    height: 260px;
-    border: 1px solid #03a9f4;
-    
+
+.content-studychild{
+    height: 400px;
+    border: 1px dashed #03a9f4;
 }
-.content-studychild-link__a{
+.content-studychild__title{
+    height: 40px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    background: #03a9f4;
     align-items: center;
 }
-.content-studychild-link a{
-    width: 290px;
-    height: 70px;
+.content-studychild__title i{
+    font-size: 24px;
+    color: #eef104;
+    margin:10px;  
+    display: inline-block;  
+}
+.content-studychild__title h6{
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 12px;
+}
+.content-studychilds{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+.content-studychilds__big{
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.content-studychilds__big img{
+    width: 360px;
+    height: 210px;
+    cursor: pointer;
+    border: 24px solid;
+    filter:  saturate(120%);
+    filter: brightness(110%);
+    border-radius: 8px;
+    border-image-slice: 60 60 60 60;
+    border-image-source:url(https://p.kindpng.com/picc/s/20-205725_transparent-merry-christmas-border-transparent-cartoons-transparent-merry.png) ;
+}
+.content-studychilds__big p{
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 16px;
+    font-weight: bold;
+    color: #333;
+
     
 }
-.content-studychild-link a img{
-    width: 100%;
-    height: 70px;
-}
+.content-studychilds__small{
+    display: flex;
+    flex-direction: column;
 
+}
+.content-studychilds-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 28%;
+    border-bottom: 2px solid #acacaa;
+}
+.content-studychilds-img img{
+    height: 80px;
+    cursor: pointer;
+    width: 100px;
+    filter:  saturate(120%);
+    filter: brightness(110%);
+    border: 12px solid;
+    border-image-slice: 38 38 38 38;
+    border-image-source:url(https://www.gifstop.com/images/borders/pinkborder.gif);
+}
+.content-studychilds-img p{
+    margin: 14px;
+    font-size: 16px;
+    cursor: pointer;
+    color:black
+}
+.content-studychilds-img p:hover{
+    color: #666768;
+}
 
 /*phần footer*/
 
@@ -971,10 +948,6 @@ section ul  .active{
 .footer-distributed .footer-center p a{
 	color:  lightseagreen;
 	text-decoration: none;;
-}
-.footer-center p:hover{
-    opacity: 0.7;
-    cursor: pointer;
 }
 
 .footer-distributed .footer-links a:before {

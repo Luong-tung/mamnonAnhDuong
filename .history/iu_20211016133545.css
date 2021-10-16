@@ -863,11 +863,10 @@ section ul  .active{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
 }
 .content-studychild-link a{
     width: 290px;
-    height: 70px;
+    height: 50px;
     
 }
 .content-studychild-link a img{
