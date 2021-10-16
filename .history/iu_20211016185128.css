@@ -630,7 +630,7 @@ h6{
     flex-direction: row;
     align-items: center;
     height: 28%;
-    border-bottom: 2px solid #c9c9c9;
+    border-bottom: 2px solid #acacaa;
 }
 .content-studychilds-img img{
     height: 80px;
@@ -842,20 +842,18 @@ section ul  .active{
     flex-direction:column;
     justify-content: space-around;
     align-items: center;
-    text-align: center;
 
 }
 .tuvan h4{
-    font-size: 36px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
     letter-spacing: 1px;
 }
-.tuvan p{
-    font-size: 22px;
+.tuban p{
     color: white;
-    margin-bottom: 30px;
-
+    margin-top: 30px;
+    
 }
 
 

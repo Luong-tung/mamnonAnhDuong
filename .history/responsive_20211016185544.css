@@ -45,30 +45,6 @@
     .tuvan p{
         font-size: 14px;
     }
-    .grid-col .col-content{
-        font-size: 12px;
-        margin-top: 0px;
-    }
-    .col-img{
-        display: block;
-        height: 160px;
-        padding: 10px 10px;
-        position: relative;
-        border-radius: 4px;
-        overflow: hidden;
-    }
-    .col-img img{
-        max-width: 100%;
-        border-radius: 4px;
-        margin-bottom: 2px;
-        cursor: pointer;
-        transition: all 0.3s ease-in-out ;
-               
-    }
-    .col-img img:hover{
-        transform: scale(1.5);
-        filter:  saturate(120%);
-        filter: brightness(110%);
-    }
+    
 
 }
