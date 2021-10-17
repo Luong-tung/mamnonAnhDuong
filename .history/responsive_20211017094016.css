@@ -37,16 +37,11 @@
         height: 50%;
         margin: 2px;
     }
-    .content-studychilds-img p{
-        font-size: 12px;
-        margin: 6px;
-    }
-    
     .content-event__note{
         padding: 5px;
     }
     .content-event__note h6{
-        font-size: 15px;
+        font: 12px;
         margin-top: 4px;
     }
     .content-event__note p{

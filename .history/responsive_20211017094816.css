@@ -41,7 +41,9 @@
         font-size: 12px;
         margin: 6px;
     }
-    
+    .content-studychilds-img{
+        width: 40%;
+    }
     .content-event__note{
         padding: 5px;
     }

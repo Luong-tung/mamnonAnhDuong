@@ -141,7 +141,7 @@ body{
     box-shadow: -3px -3px 7px white, 4px 4px 5px rgba(115, 116, 117, 0.288)
 }
 .navbar-mobile li:hover{
-    box-shadow: inset -4px -4px 7px white,
+    box-shadow: inset -3px -3px 7px white,
     inset 4px 4px 5px rgba(115, 116, 117, 0.288);
 }
 .navbar-mobile ul{
@@ -706,6 +706,7 @@ h6{
 }
 .content-studychilds-img{
     display: flex;
+    flex-direction: row;
     align-items: center;
     height: 28%;
     border-bottom: 2px solid #c9c9c9;

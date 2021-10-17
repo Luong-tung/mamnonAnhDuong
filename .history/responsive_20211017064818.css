@@ -19,15 +19,8 @@
     .undisplay{
         display: none;
     }
-    .header-img{
-        
-        height: 120px;
-    }
     .header-img img{
         width: 100%;
-    }
-    .header .header-icons:hover{
-        right: -150px;
     }
     .content-studychilds__big{
         margin:2px;
@@ -37,17 +30,8 @@
         height: 50%;
         margin: 2px;
     }
-    .content-studychilds-img p{
-        font-size: 12px;
-        margin: 6px;
-    }
-    
     .content-event__note{
         padding: 5px;
-    }
-    .content-event__note h6{
-        font-size: 15px;
-        margin-top: 4px;
     }
     .content-event__note p{
         margin-top: 2px;
@@ -81,17 +65,17 @@
         transition: all 0.3s ease-in-out ;
         filter:  saturate(120%);
         filter: brightness(110%);
-        animation: tung 8s 6s ease infinite;
+        animation: tung 5s 5s ease infinite;
     }
     .col-img img:hover{
-        transform: scale(1.4);
+        transform: scale(1.5);
     }
     @keyframes tung {
         from{
             transform: scale(1);
         }
         to{
-        transform: scale(1.5);    
+        transform: scale(1.7);    
         }
         
     }
@@ -100,15 +84,6 @@
     }
     .nav__bars-btn{
         display: block;
-    }
-    .nav__bars-btn i{
-        font-size: 26px;
-        margin: 4px;
-    }
-    .header-img  img:first-child{
-        height:80px ;
-        width: 15%;
-         margin: 10px;
     }
 
 

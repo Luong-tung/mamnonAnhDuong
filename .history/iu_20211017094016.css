@@ -706,6 +706,7 @@ h6{
 }
 .content-studychilds-img{
     display: flex;
+    flex-direction: row;
     align-items: center;
     height: 28%;
     border-bottom: 2px solid #c9c9c9;

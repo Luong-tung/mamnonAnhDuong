@@ -126,23 +126,19 @@ body{
     top: 0;
     bottom: 0;
     width: 220px;
-    background: #e5e8eb;
+    background: #dde1e7;
     transform: translateX(-100%);
     opacity: 0;
     transition:all linear 0.2s ;
 }
 .navbar-mobile li{
-    margin-top: 12px;
+    margin-top: 5px;
     width: 180px;
     padding: 10px 10px;
     list-style: none;
-    background-color: #e5e8eb;
+    background-color: #dde1e7;
     border-radius: 20px;
-    box-shadow: -3px -3px 7px white, 4px 4px 5px rgba(115, 116, 117, 0.288)
-}
-.navbar-mobile li:hover{
-    box-shadow: inset -4px -4px 7px white,
-    inset 4px 4px 5px rgba(115, 116, 117, 0.288);
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94,104,121,0.288)
 }
 .navbar-mobile ul{
     margin-top: 40px;
@@ -706,6 +702,7 @@ h6{
 }
 .content-studychilds-img{
     display: flex;
+    flex-direction: row;
     align-items: center;
     height: 28%;
     border-bottom: 2px solid #c9c9c9;
